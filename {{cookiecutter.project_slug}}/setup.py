@@ -17,5 +17,7 @@ setup(
     author_email='{{cookiecutter.email}}',
     url='https://github.com/{{cookiecutter.github}}/{{cookiecutter.project_slug}}',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'docs')),
+    install_requires=[
+    ]
 )
